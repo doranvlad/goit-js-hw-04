@@ -6,7 +6,7 @@ function calcAverageCalories(days) {
         results += iterator.calories;
     };
 
-    return arrLength === 0 ? [] : results / arrLength;
+    return arrLength === 0 ? 0 : results / arrLength;
 };
 
 console.log(
